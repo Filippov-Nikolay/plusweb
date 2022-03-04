@@ -1,0 +1,135 @@
+.header {
+    background: url('../img/index-image/bg.png') no-repeat center top / cover;
+    height: 100vh;
+}
+
+.nav {
+    padding-top: 20px;
+}
+
+.nav::after {
+    content: '';
+    display: block;
+    margin: 15px auto 0;
+    width: 40%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    position: absolute;
+    right: 50%;
+    display: flex;
+    transform: translate(50%, 0);
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.menu__link {
+    font-weight: 300;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu__link-name {
+    font-size: 24px;
+    color: #000;
+    cursor: default;
+}
+
+.menu__sub {
+    position: absolute;
+    display: none;
+}
+
+.menu__sub .menu__item {
+    margin: 0 0 0 15px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.menu__sub .menu__link {
+    padding: 2px;
+    font-size: 18px;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: all .5s ease;
+}
+
+.menu__sub .menu__link:hover {
+    border: 1px solid #000;
+}
+
+.menu .menu__item:hover .menu__sub {
+    display: block;
+}
+
+.box-forms {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px 40px;
+    width: 60%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.box-forms .section__sub-title {
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: fixed;
+    cursor: default;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 20px 35px;
+    text-align: center;
+    border: 1px solid #fff;
+    transition: all .5s ease;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.header__content {
+    padding-top: 120px;
+    padding-bottom: 227px;
+}
+
+.header__title {
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 72px;
+}
+
+.header__sub-title {
+    padding-bottom: 85px;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.header__button {
+    padding: 25px 40px;
+    font-size: 24px;
+}

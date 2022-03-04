@@ -1,0 +1,85 @@
+.header {
+    background: url('../img/contacts-image/bg.png') no-repeat center top / cover;
+}
+
+.header__wrapper {
+    text-align: center;
+}
+
+.section__social .social__name {
+    color: #fff;  
+}
+
+.section__comments {
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 80%;
+    color: #000;
+    cursor: default;
+}
+
+.comments__about {
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.comments__about:not(:first-child) {
+    margin-top: 35px;
+}
+
+.comments__user {
+   display: flex;
+   align-items: center;
+}
+
+.comments__img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.comments__name {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.comments__text {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.add__comment {
+    padding-top: 100px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+}
+
+.comment__buttons {
+    padding-top: 15px;
+}
+
+.comment__buttons input {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.button__comment {
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+.button__comment:not(:last-child) {
+    margin-right: 8px;
+}
+
+.button__comment:hover {
+    color: #fff;
+    background-color: #000;
+}

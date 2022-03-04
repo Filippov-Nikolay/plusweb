@@ -1,0 +1,100 @@
+@import url('normalize.css');
+@import url('header.css');
+@import url('menu.css');
+@import url('section.css');
+@import url('footer.css');
+@import url('mobile.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* chrome, opera, safari, yandex, microsoft-edge */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #b8b8b8;
+    border: 3px solid #fff;
+}
+
+a {
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.header__title--center {
+    font-size: 144px;
+    text-align: center;
+}
+
+.header__sub-title--center {
+    font-size: 72px;
+    text-align: center;
+}
+
+.line-black {
+    color: #000;
+}
+.line-black::after {
+    content: '';
+    display: block;
+    margin: 15px auto 0;
+    width: 30%;
+    height: 1px;
+    background-color: #000;
+}
+
+.line-white {
+    color: #fff;
+}
+.line-white::after {
+    content: '';
+    display: block;
+    margin: 15px auto 0;
+    width: 30%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+.section__gray {
+    background-color: #4B4B4B;
+}
+
+.section__white {
+    background-color: #fff;
+}
+
+.anim-block {
+    opacity: 0;
+    animation: show .3s 1;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,49 @@
+.header {
+    background: url('../img/website-development/bg.png') no-repeat center top / cover;
+}
+
+.header__wrapper {
+    text-align: center;
+}
+
+.prices__item {
+    border: 1px solid #000;
+}
+
+.forms {
+    border: 1px solid #fff;
+}
+
+.forms input {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.forms__button {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.forms__button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.box-reg .forms {
+    border: 1px solid #000;
+}
+
+.box-reg .forms input {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.box-reg .forms__button {
+    color: #000;
+    border: 1px solid #000;
+}
+
+.box-reg .forms__button:hover {
+    color: #fff;
+    background-color: #000;
+}

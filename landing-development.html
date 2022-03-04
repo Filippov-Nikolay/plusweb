@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/landing-development.css">
+    <link rel="stylesheet" href="plugins/lightbox/css/lightbox.css">
+
+    <title>Разработка lanidng page</title>
+</head>
+<body>
+    <header class="header anim-block">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__wrapper">
+                    <a href="index.html" class="nav__logo"><img src="img/index-image/logo.png" alt="logo-PlusWeb"></a>
+                    <ul class="menu">
+                        <li class="menu__item menu__link">Услуги
+                        <ul class="menu__sub anim-block">
+                            <li class="menu__item menu__link-name">Разработка
+                                <ul class="sub__menu">
+                                    <li class="menu__item"><a href="website-development.html" class="menu__link">Разработка сайта</a></li>
+                                    <li class="menu__item"><a href="landing-development.html" class="menu__link">Разработка landing page</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__item menu__link-name">Дизайн
+                                <ul class="sub__menu">
+                                    <li class="menu__item"><a href="logo-development.html" class="menu__link">Разработка логотипа</a></li>
+                                    <li class="menu__item"><a href="style-development.html" class="menu__link">Разработка фирменного стиля</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="menu__item"><a href="#portfolio" class="menu__link">Портфолио</a></li>
+                        <li class="menu__item menu__link">Данные
+                            <ul class="menu__sub anim-block">
+                                <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                                <li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#box" class="button nav__button" onclick="openbox('box'); return false">Оставить заявку</a>
+                    <div class="box-reg" id="box" style="display: none;">
+                        <a href="#" class="overlay" onclick="openbox('box'); return false"></a>
+                        <div class="box-forms anim-block">
+                            <h3 class="section__sub-title">Заполните форму и мы <br> свяжемся с вами</h3>
+                            <form action="index.php" method="POST" class="forms" name="formName">
+                                <div class="user-name">
+                                    <input placeholder="Ваше имя" type="text" name="user_login">
+                                </div>
+                                <div class="user-email">
+                                    <input placeholder="Почта" type="email" name="user_email">                             
+                                </div>
+                                <div class="user-tel">
+                                    <input placeholder="Ваш номер телефона" type="tel" name="user_phone">                             
+                                </div>
+                                <button type="submit" class="button forms__button">Отправить</button>  
+                            </form>
+                        </div>
+                    </div>
+                </div> 
+            </nav>
+            <div class="header__content">
+                <h1 class="header__title header__title--center">
+                    Разработка
+                </h1>
+                <div class="header__sub-title header__sub-title--center">
+                    Разработка landing page
+                </div>
+                <div class="header__wrapper">
+                    <a href="#section-down" class="button header__button">Смотреть ниже</a>
+                </div>    
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section">
+            <div class="container">
+                <div class="section__content">
+                    <h2 id="section-down" class="section__title line-black">Что мы предлагаем</h2>
+                    <div class="section__card">
+                        <div class="card__item">
+                            <div class="card__wrapper">
+                                <img src="img/website-development/card-img1.png" alt="card-img1" class="card__img">
+                                <h3 class="card__title">Адаптивность под все устройства</h3>
+                            </div>  
+                            <div class="card__description">
+                                Сайт будет иметь поддержку на все широкоформатных экранах, ноутбуках, планшетов и телефонов
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__wrapper">
+                                <img src="img/website-development/card-img2.png" alt="card-img2" class="card__img">
+                                <h3 class="card__title">Адаптивность под браузеры</h3>
+                            </div>  
+                            <div class="card__description">
+                                Сайт будет поддерживатся всеми современными браузерами
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__wrapper">
+                                <img src="img/website-development/card-img3.png" alt="card-img3" class="card__img">
+                                <h3 class="card__title">Удобны в использовинии</h3>
+                            </div>  
+                            <div class="card__description">
+                                Пользователям сайта,  будет удобно использовать сайт, они будут быстро находить решение своих задач
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__wrapper">
+                                <img src="img/website-development/card-img4.png" alt="card-img4" class="card__img">
+                                <h3 class="card__title">Уникальный дизайн</h3>
+                            </div>  
+                            <div class="card__description">
+                                Визуальная часть очень важна, для превлечения пользователей и мы это предоставим
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section__gray">
+            <div class="container">
+                <div class="section__content">
+                    <h2 id="sections" class="section__title line-white">Цель landing page</h2>
+                    <div class="section__card">
+                        <div class="card__item text-white">
+                            <div class="card__wrapper">
+                                <img src="img/landing-development/card-img1-1.png" alt="card-img1" class="card__img">
+                                <h3 class="card__title">Знакомство с товаром или услугой</h3>
+                            </div>  
+                            <div class="card__description">
+                                Прежде чем продать товар, клиент должен ознакомится с товаром или с услугой которая ему предоставляется
+                            </div>
+                        </div>
+                        <div class="card__item text-white">
+                            <div class="card__wrapper">
+                                <img src="img/landing-development/card-img1-2.png" alt="card-img2" class="card__img">
+                                <h3 class="card__title">Мотивировать клиента на заказ товара</h3>
+                            </div>  
+                            <div class="card__description">
+                                Главная задача landing page - это создать спрос на товар, что клиент хотел заказть товар
+                            </div>
+                        </div>
+                        <div class="card__item text-white">
+                            <div class="card__wrapper">
+                                <img src="img/landing-development/card-img1-3.png" alt="card-img3" class="card__img">
+                                <h3 class="card__title">Сбор данных о клиентах</h3>
+                            </div>  
+                            <div class="card__description">
+                                Благодаря сборм данных о клиентах, Вы сможете наблюдать, какой товар пользуется спросом
+                            </div>
+                        </div>
+                        <div class="card__item text-white">
+                            <div class="card__wrapper">
+                                <img src="img/landing-development/card-img1-4.png" alt="card-img4" class="card__img">
+                                <h3 class="card__title">Привлекать клиента</h3>
+                            </div>  
+                            <div class="card__description">
+                                Чем привлекательнее товар и прост lanidng page, то тем больше он будет привлекателен для клиента
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section__white">
+            <div class="container">
+                <div class="section__content">
+                    <h2 id="portfolio" class="section__title line-black">Портфолио наших работ</h2>
+                    <div class="section__gallery">
+                        <div class="about">
+                            <a class="about__link" href="img/index-image/Azhur-plus.png" data-lightbox="portfolio-list">
+                                <span class="about__name">Azhur plus</span>
+                                <span>
+                                    <img class="about__img" src="img/index-image/Azhur-plus.png" alt="Azhur-plus">
+                                </span>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a class="about__link" href="img/index-image/AllCreate.png" data-lightbox="portfolio-list">
+                                <span class="about__name">AllCreate</span>
+                                <span>
+                                    <img class="about__img" src="img/index-image/AllCreate.png" alt="AllCreate">
+                                </span>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a class="about__link" href="img/index-image/HappyPet.png" data-lightbox="portfolio-list">
+                                <span class="about__name">HappyPet</span>
+                                <span>
+                                    <img class="about__img" src="img/index-image/HappyPet.png" alt="HappyPet">
+                                </span>
+                            </a>
+                        </div>
+                        <div class="about">
+                            <a class="about__link" href="img/index-image/Ekspoforum.png" data-lightbox="portfolio-list">
+                                <span class="about__name">Экспофорум</span>
+                                <span>
+                                    <img class="about__img" src="img/index-image/Ekspoforum.png" alt="Ekspoforum">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section__gray">
+            <div class="container">
+                <div class="section__content">
+                    <h2 id="portfolio" class="section__title line-white">Цены</h2>
+                    <div class="section__prices">
+                        <div class="prices__item">
+                            <div class="prices__name">Сайт <br> визитка</div>
+                            <div class="prices__money">От 4000 грн</div>
+                        </div>
+                        <div class="prices__item">
+                            <div class="prices__name">Сайт интернет <br> магазина</div>
+                            <div class="prices__money">От 14000 грн</div>
+                        </div>
+                        <div class="prices__item">
+                            <div class="prices__name">Сайт landing <br> page</div>
+                            <div class="prices__money">От 5500 грн</div>
+                        </div>
+                        <div class="prices__item">
+                            <div class="prices__name">Разработка <br> логотипа</div>
+                            <div class="prices__money">От 2000 грн</div>
+                        </div>
+                        <div class="prices__item">
+                            <div class="prices__name">Разработка уникального <br> стиля</div>
+                            <div class="prices__money">От 3500 грн</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section__white">
+            <div class="container">
+                <div class="section__content">
+                    <h2 class="section__title line-black">Понравилось?</h2>
+                    <h3 class="section__sub-title">Заполните форму и мы <br> свяжемся с вами</h3>
+                    <form action="index.php" method="POST" class="forms">
+                        <div class="user-name">
+                            <input placeholder="Ваше имя" type="text" name="user_login">
+                        </div>
+                        <div class="user-email">
+                            <input placeholder="Почта" type="email" name="user_email">                             
+                        </div>
+                        <div class="user-tel">
+                            <input placeholder="Ваш номер телефона" type="tel" name="user_phone">                             
+                        </div>
+                        <button type="submit" class="button forms__button">Отправить</button>  
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__navigation">
+                    <div class="footer__wrapper">
+                        <ul class="menu">
+                            <li class="menu__item menu__link">Услуги
+                            <ul class="menu__sub anim-block">
+                                <li class="menu__item menu__link-name">Разработка
+                                    <ul class="sub__menu">
+                                        <li class="menu__item"><a href="website-development.html" class="menu__link">Разработка сайта</a></li>
+                                        <li class="menu__item"><a href="landing-development.html" class="menu__link">Разработка landing page</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item menu__link-name">Дизайн
+                                    <ul class="sub__menu">
+                                        <li class="menu__item"><a href="logo-development.html" class="menu__link">Разработка логотипа</a></li>
+                                        <li class="menu__item"><a href="style-development.html" class="menu__link">Разработка фирменного стиля</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </li>
+                            <li class="menu__item"><a href="#portfolio" class="menu__link">Портфолио</a></li>
+                            <li class="menu__item menu__link">Данные
+                                <ul class="menu__sub anim-block">
+                                    <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                                    <li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="social__item">
+                        <img src="img/viber-logo.png" alt="viber-logo">
+                        <span class="social__name">
+                            Viber
+                        </span>
+                    </a> 
+                    <a href="#" class="social__item">
+                        <img src="img/instagram-logo.png" alt="instagram-logo">
+                        <span class="social__name">
+                            Instagram
+                        </span>
+                    </a>
+                    <a href="#" class="social__item">
+                        <img src="img/telegram-logo.png" alt="telegram-logo">
+                        <span class="social__name">
+                            Telegram
+                        </span>
+                    </a>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__copyright">
+                        &copy; 2021 Все права защищенны. Сайт создал Филиппов Николай, основатель компании PlusWeb
+                    </div>
+                    <div class="footer__logo">
+                        <a href="index.html"><img src="img/logo-black.png" alt="logo-PlusWeb"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="plugins/lightbox/js/lightbox-plus-jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

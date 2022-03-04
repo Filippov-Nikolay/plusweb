@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/reviews.css">
+
+    <title>Отзывы</title>
+</head>
+<body>
+    <header class="header anim-block">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__wrapper">
+                    <a href="index.html" class="nav__logo"><img src="img/index-image/logo.png" alt="logo-PlusWeb"></a>
+                    <ul class="menu">
+                        <li class="menu__item menu__link">Услуги
+                        <ul class="menu__sub anim-block">
+                            <li class="menu__item menu__link-name">Разработка
+                                <ul class="sub__menu">
+                                    <li class="menu__item"><a href="website-development.html" class="menu__link">Разработка сайта</a></li>
+                                    <li class="menu__item"><a href="landing-development.html" class="menu__link">Разработка landing page</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__item menu__link-name">Дизайн
+                                <ul class="sub__menu">
+                                    <li class="menu__item"><a href="logo-development.html" class="menu__link">Разработка логотипа</a></li>
+                                    <li class="menu__item"><a href="style-development.html" class="menu__link">Разработка фирменного стиля</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="menu__item"><a href="index.html" class="menu__link" target="__blank">Портфолио</a></li>
+                        <li class="menu__item menu__link">Данные
+                            <ul class="menu__sub anim-block">
+                                <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                                <li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#box" class="button nav__button" onclick="openbox('box'); return false">Оставить заявку</a>
+                    <div class="box-reg" id="box" style="display: none;">
+                        <a href="#" class="overlay" onclick="openbox('box'); return false"></a>
+                        <div class="box-forms anim-block">
+                            <h3 class="section__sub-title">Заполните форму и мы <br> свяжемся с вами</h3>
+                            <form action="index.php" method="POST" class="forms" name="formName">
+                                <div class="user-name">
+                                    <input placeholder="Ваше имя" type="text" name="user_login">
+                                </div>
+                                <div class="user-email">
+                                    <input placeholder="Почта" type="email" name="user_email">                             
+                                </div>
+                                <div class="user-tel">
+                                    <input placeholder="Ваш номер телефона" type="tel" name="user_phone">                             
+                                </div>
+                                <button type="submit" class="button forms__button">Отправить</button>  
+                            </form>
+                        </div>
+                    </div>
+                </div> 
+            </nav>
+            <div class="header__content">
+                <h1 class="header__title header__title--center">
+                    Данные
+                </h1>
+                <div class="header__sub-title header__sub-title--center">
+                    Отзывы
+                </div>
+                <div class="header__wrapper">
+                    <a href="#section-down" class="button header__button">Смотреть ниже</a>
+                </div>    
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section">
+            <div class="container">
+                <div class="section__content">
+                    <h2 id="section-down" class="section__title line-black">Отзывы</h2>
+                    <div class="section__comments">
+                        <div class="comments__about">
+                            <div class="comments__user">
+                                <img src="img/reviews-image/Users/user.jpeg" alt="user" class="comments__img">
+                                <div class="comments__name">
+                                    Yoda
+                                </div>
+                            </div>
+                            <div class="comments__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ea recusandae repellendus magnam, nam error numquam amet corporis saepe nulla eaque at vel sequi dolor mollitia. Aliquid, rerum voluptatum veritatis laudantium doloremque officia facilis temporibus maxime eos sed pariatur voluptatibus reprehenderit. Itaque quia quisquam illo nihil fugit, ipsa voluptates in.
+                            </div>
+                        </div>
+                        <div class="comments__about">
+                            <div class="comments__user">
+                                <img src="img/reviews-image/Users/user.jpeg" alt="user" class="comments__img">
+                                <div class="comments__name">
+                                    Yoda
+                                </div>
+                            </div>
+                            <div class="comments__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ea recusandae repellendus magnam, nam error numquam amet corporis saepe nulla eaque at vel sequi dolor mollitia. Aliquid, rerum voluptatum veritatis laudantium doloremque officia facilis temporibus maxime eos sed pariatur voluptatibus reprehenderit. Itaque quia quisquam illo nihil fugit, ipsa voluptates in.
+                            </div>
+                        </div>
+                        <div class="comments__about">
+                            <div class="comments__user">
+                                <img src="img/reviews-image/Users/user.jpeg" alt="user" class="comments__img">
+                                <div class="comments__name">
+                                    Yoda
+                                </div>
+                            </div>
+                            <div class="comments__text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ea recusandae repellendus magnam, nam error numquam amet corporis saepe nulla eaque at vel sequi dolor mollitia. Aliquid, rerum voluptatum veritatis laudantium doloremque officia facilis temporibus maxime eos sed pariatur voluptatibus reprehenderit. Itaque quia quisquam illo nihil fugit, ipsa voluptates in.
+                            </div>
+                        </div>
+                        <form action="#" method="get" class="add-comment">
+                            <input type="text" class="add__comment" placeholder="Оставить отзыв">
+                            <div class="comment__buttons">
+                                <input type="button" class="button__comment" value="Оставить отзыв">
+                                <input type="reset" class="button__comment" value="Отмена">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section__gray">
+            <div class="container">
+                <div class="section__content">
+                    <h2 id="sections" class="section__title line-white">Контакты</h2>
+                    <div class="section__social">
+                        <a href="#" class="social__item">
+                            <img src="img/viber-logo-white.png" alt="viber-logo">
+                            <span class="social__name">
+                                Viber
+                            </span>
+                        </a> 
+                        <a href="#" class="social__item">
+                            <img src="img/instagram-logo-white.png" alt="instagram-logo">
+                            <span class="social__name">
+                                Instagram
+                            </span>
+                        </a>
+                        <a href="#" class="social__item">
+                            <img src="img/telegram-logo-white.png" alt="telegram-logo">
+                            <span class="social__name">
+                                Telegram
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section__whait">
+            <div class="container">
+                <div class="section__content">
+                    <h2 class="section__title line-black">Свяжитесь с нами</h2>
+                    <h3 class="section__sub-title">Заполните форму и мы <br> свяжемся с вами</h3>
+                    <form action="index.php" method="POST" class="forms">
+                        <div class="user-name">
+                            <input placeholder="Ваше имя" type="text" name="user_login">
+                        </div>
+                        <div class="user-email">
+                            <input placeholder="Почта" type="email" name="user_email">                             
+                        </div>
+                        <div class="user-tel">
+                            <input placeholder="Ваш номер телефона" type="tel" name="user_phone">                             
+                        </div>
+                        <button type="submit" class="button forms__button">Отправить</button>  
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__navigation">
+                    <div class="footer__wrapper">
+                        <ul class="menu">
+                            <li class="menu__item menu__link">Услуги
+                            <ul class="menu__sub anim-block">
+                                <li class="menu__item menu__link-name">Разработка
+                                    <ul class="sub__menu">
+                                        <li class="menu__item"><a href="website-development.html" class="menu__link">Разработка сайта</a></li>
+                                        <li class="menu__item"><a href="landing-development.html" class="menu__link">Разработка landing page</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item menu__link-name">Дизайн
+                                    <ul class="sub__menu">
+                                        <li class="menu__item"><a href="logo-development.html" class="menu__link">Разработка логотипа</a></li>
+                                        <li class="menu__item"><a href="style-development.html" class="menu__link">Разработка фирменного стиля</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </li>
+                            <li class="menu__item"><a href="index.html" class="menu__link" target="__blank">Портфолио</a></li>
+                            <li class="menu__item menu__link">Данные
+                                <ul class="menu__sub anim-block">
+                                    <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+                                    <li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="social__item">
+                        <img src="img/viber-logo.png" alt="viber-logo">
+                        <span class="social__name">
+                            Viber
+                        </span>
+                    </a> 
+                    <a href="#" class="social__item">
+                        <img src="img/instagram-logo.png" alt="instagram-logo">
+                        <span class="social__name">
+                            Instagram
+                        </span>
+                    </a>
+                    <a href="#" class="social__item">
+                        <img src="img/telegram-logo.png" alt="telegram-logo">
+                        <span class="social__name">
+                            Telegram
+                        </span>
+                    </a>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__copyright">
+                        &copy; 2021 Все права защищенны. Сайт создал Филиппов Николай, основатель компании PlusWeb
+                    </div>
+                    <div class="footer__logo">
+                        <a href="index.html"><img src="img/logo-black.png" alt="logo-PlusWeb"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

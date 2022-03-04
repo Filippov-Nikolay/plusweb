@@ -1,0 +1,7 @@
+.header {
+    background: url('../img/landing-development/bg.png') no-repeat center top / cover;
+}
+
+.header__wrapper {
+    text-align: center;
+}
