@@ -194,4 +194,16 @@
 	.button__comment:not(:last-child) {
 		margin-bottom: 15px;
 	}
+
+	.forms {	
+		padding: 10px;
+	}
+
+	.box-forms {
+		padding: 20px 10px;
+	}
+
+	.box-forms .section__sub-title {
+		font-size: 19px;
+	}
 }
