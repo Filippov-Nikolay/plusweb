@@ -52,15 +52,15 @@
                         <a href="#" class="overlay" onclick="openbox('box');"></a>
                         <div class="box-forms anim-block">
                             <h3 class="section__sub-title">Заполните форму и мы <br> свяжемся с вами</h3>
-                            <form action="index.php" method="POST" class="forms" name="formName">
+                            <form action="index.php" method="POST" class="forms">
                                 <div class="user-name">
-                                    <input placeholder="Ваше имя" type="text" name="user_login">
+                                    <input placeholder="Ваше имя" type="text" name="user_login" required>
                                 </div>
                                 <div class="user-email">
-                                    <input placeholder="Почта" type="email" name="user_email">
+                                    <input placeholder="Почта" type="email" name="user_email" required>
                                 </div>
                                 <div class="user-tel">
-                                    <input placeholder="Ваш номер телефона" type="tel" name="user_phone">
+                                    <input id="phone" placeholder="Ваш номер телефона" type="tel" name="user_phone" pattern="\+?[0-9]{8,13}" required> 
                                 </div>
                                 <button type="submit" class="button forms__button">Отправить</button>
                             </form>
@@ -178,15 +178,15 @@
                     <h3 class="section__sub-title text-white">Заполните форму и мы <br> свяжемся с вами</h3>
                     <form action="index.php" method="POST" class="forms">
                         <div class="user-name">
-                            <input placeholder="Ваше имя" type="text" name="user_login">
+                            <input placeholder="Ваше имя" type="text" name="user_login" required>
                         </div>
                         <div class="user-email">
-                            <input placeholder="Почта" type="email" name="user_email">                             
+                            <input placeholder="Почта" type="email" name="user_email" required>
                         </div>
                         <div class="user-tel">
-                            <input placeholder="Ваш номер телефона" type="tel" name="user_phone">                             
+                            <input id="phone" placeholder="Ваш номер телефона" type="tel" name="user_phone" pattern="\+?[0-9]{8,13}" required> 
                         </div>
-                        <button type="submit" class="button forms__button">Отправить</button>  
+                        <button type="submit" class="button forms__button">Отправить</button>
                     </form>
                 </div>
             </div>
@@ -215,7 +215,7 @@
                             </ul>
                             </li>
                             <li class="menu__item"><a href="#portfolio" class="menu__link">Портфолио</a></li>
-                            <li class="menu__item menu__link">Данные
+                            <li class="menu__item menu__link">Сведения
                                 <ul class="menu__sub anim-block">
                                     <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
                                     <li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
@@ -226,19 +226,19 @@
                 </div>
                 <div class="footer__social">
                     <a href="https://invite.viber.com/?g2=AQADLXz%2FTm3FKU7WfeiOU24RjOvEYCgFJp8q9%2B0qb5Mm6IlE4GVhdoLE7%2FNBo0Gx" target="__blank" class="social__item">
-                        <img src="img/viber-logo.png" alt="viber-logo">
+                        <img src="img/viber-logo.png" alt="viber-logo" class="footer__img">
                         <span class="social__name">
                             Viber
                         </span>
                     </a> 
                     <a href="https://www.instagram.com/plusweb.github/" target="__blank" class="social__item">
-                        <img src="img/instagram-logo.png" alt="instagram-logo">
+                        <img src="img/instagram-logo.png" alt="instagram-logo" class="footer__img">
                         <span class="social__name">
                             Instagram
                         </span>
                     </a>
                     <a href="https://t.me/pluswebgithub" target="__blank" class="social__item">
-                        <img src="img/telegram-logo.png" alt="telegram-logo">
+                        <img src="img/telegram-logo.png" alt="telegram-logo" class="footer__img">
                         <span class="social__name">
                             Telegram
                         </span>

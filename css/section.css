@@ -130,6 +130,7 @@
 
 .section__sub-title {
     padding-top: 60px;
+    padding-bottom: 100px;
     font-weight: 300;
     font-size: 36px;
     text-align: center;
@@ -137,7 +138,7 @@
 }
 
 .forms {
-    margin: 100px auto 0;
+    margin: 0 auto;
     padding: 75px 35px 60px;
     width: 50%;
     text-align: center;
@@ -151,14 +152,7 @@
     border-bottom: 1px solid #000;
 }
 
-.box-reg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    transform: translate(-50%, -50%);
-}
+
 
 .user-name {
     padding-bottom: 105px;
@@ -170,6 +164,9 @@
 
 .user-tel {
     padding-bottom: 105px;
+}
+.user-tel__msg {
+    color: #000;
 }
 
 .forms__button {
@@ -201,6 +198,7 @@
 .card__wrapper {
     display: flex;
     align-items: center;
+    padding-bottom: 15px;
 }
 .card__img {
     margin-right: 30px;
@@ -209,14 +207,13 @@
     transition: all .5s ease;
 }
 .card__title {
-    padding-bottom: 20px;
     max-width: 370px;
     font-weight: 700;
     font-size: 36px;
 }
 .card__description {
     max-width: 449px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .section__cards {
@@ -225,31 +222,26 @@
 .cards__item {
     position: relative;
 }
-
 .cards__item:hover .cards__wrapper {
     width: 100%;
 }
-
 .cards__item:hover .cards__title {
     opacity: 1;
 }
-
 .cards__item:not(:last-child) {
     margin-bottom: 15px;
 }
-
 .cards__wrapper {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
     width: 0;
     text-align: center;
-    background-color: #000;
+    background-color: #000000ba;
     transition: all .5s ease;
 }
-
 .cards__title {
-    font-size: 48px;
+    font-size: 40px;
     opacity: 0;
     transition: all .5s ease;
     cursor: default;
@@ -272,6 +264,7 @@
 }
 .prices__item:hover {
     transform: translate(-10px);
+    background: rgba(255, 255, 255, 0.15);
 }
 .prices__item:not(:last-child) {
     margin-bottom: 15px;
@@ -283,22 +276,18 @@
     padding-top: 60px;
     color: #000;  
 }
-
 .section__social .social__item {
     flex-direction: column;
 }
-
 .section__social .social__item:nth-child(2) {
     position: absolute;
     left: 50%;
     transform: translate(-55%);
 }
-
 .section__social .social__item img {
     width: 60px;
     height: 60px;
 }
-
 .section__social .social__name {
     font-size: 46px;
 }
