@@ -221,6 +221,8 @@
 }
 .cards__item {
     position: relative;
+    max-height: 280px;
+    overflow: hidden;
 }
 .cards__item:hover .cards__wrapper {
     width: 100%;
@@ -230,6 +232,9 @@
 }
 .cards__item:not(:last-child) {
     margin-bottom: 15px;
+}
+.cards__img {
+    min-width: 100%;
 }
 .cards__wrapper {
     position: absolute;

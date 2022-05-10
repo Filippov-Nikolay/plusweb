@@ -25,6 +25,26 @@
 		font-size: 24px;
 	}
 
+	.box-forms .section__sub-title {
+		font-size: 30px;
+	}
+
+	.box-forms .forms input {
+		font-size: 20px;
+	}
+
+	.box-forms .user-name {
+		padding-bottom: 60px;
+	}
+
+	.box-forms .user-email {
+		padding-bottom: 60px;
+	}
+
+	.box-forms .user-tel {
+		padding-bottom: 70px;
+	}
+
 	.about:not(:last-child) {
 		margin-bottom: 15px;
 	}

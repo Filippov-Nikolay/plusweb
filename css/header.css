@@ -22,6 +22,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.nav__logo {
+    max-width: 155px;
+}
 
 .menu {
     position: absolute;
@@ -58,7 +61,7 @@
     display: none;
     padding: 5px;
     width: fit-content;
-    background-color: #fff;
+    background-color: #fffffff2;
 }
 
 .menu__sub .menu__item {
