@@ -1,22 +1,18 @@
 .section__content {
     padding: 80px 0;
 }
-
 .section__title {
     font-weight: 700;
     font-size: 48px;
     text-align: center;
 }
-
 .section__bodys {
     padding-top: 60px;
 }
-
 .section__body {
     padding: 25px 0;
     min-height: 280px;
 }
-
 .section__body:nth-child(1) {
     background: url('../img/index-image/img1.png') no-repeat center top / cover;
 }
@@ -26,27 +22,22 @@
 .section__body:nth-child(3) {
     background: url('../img/index-image/img3.png') no-repeat center top / cover;
 }
-
 .section__body:not(:last-child) {
     margin-bottom: 15px;
 }
-
 .body__item {  
     padding-bottom: 20px;
 }
-
 .body__title {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
 }
-
 .body__links {
     margin: 0 auto;
     width: fit-content;
     min-width: 40%;
 }
-
 .body__link {
     display: flex;
     align-items: center;
@@ -56,11 +47,9 @@
     border: 1px solid rgba(255, 255, 255, 0);
     transition: all .5s ease;
 }
-
 .body__link:hover {
     border: 1px solid #fff;
 }
-
 .body__link::before {
     content: '';
     display: block;
@@ -69,20 +58,21 @@
     height: 2px;
     background-color: #fff;
 }
-
 .body__link:not(:last-child) {
     margin-bottom: 15px;
 }
-
 .section__gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 60px;
 }
-
-.about:nth-child(1) {
+.about {
+    position: relative;
     margin-bottom: 15px;
+    background-color: #000;
+}
+.about:nth-child(1) {
     max-width: 600px;
     max-height: 350px;
 }
@@ -98,17 +88,10 @@
     max-width: 600px;
     max-height: 350px;
 }
-
-.about {
-    position: relative;
-    background-color: #000;
-}
-
 .about__link:hover .about__img {
     opacity: .1;
     filter: blur(1px);
 }
-
 .about__name {
     position: absolute;
     top: 50%;
@@ -123,11 +106,9 @@
 .about__link:hover .about__name {
     opacity: 1;
 }
-
-.about__img {   
+.about__img {
     transition: all .8s ease;
 }
-
 .section__sub-title {
     padding-top: 60px;
     padding-bottom: 100px;
@@ -136,7 +117,6 @@
     text-align: center;
     color: #000;
 }
-
 .forms {
     margin: 0 auto;
     padding: 75px 35px 60px;
@@ -144,16 +124,12 @@
     text-align: center;
     border: 1px solid #000;
 }
-
 .forms input {
     width: 100%;
     text-align: center;
     font-size: 24px;
     border-bottom: 1px solid #000;
 }
-
-
-
 .user-name {
     padding-bottom: 105px;
 }

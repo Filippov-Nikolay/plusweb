@@ -55,7 +55,6 @@
     color: #000;
     cursor: default;
 }
-
 .menu__sub {
     position: absolute;
     display: none;
@@ -65,6 +64,7 @@
 }
 
 .menu__sub .menu__item {
+    min-width: 100px;
     font-size: 20px;
 }
 .sub__menu {
@@ -87,7 +87,6 @@
 .menu .menu__item:hover .menu__sub {
     display: block;
 }
-
 .box-reg {
     position: absolute;
     top: 50%;
@@ -124,8 +123,6 @@
 .box-forms .forms {
     width: 70%;
 }
-
-
 .button {
     display: inline-block;
     padding: 20px 35px;
@@ -134,29 +131,23 @@
     border: 1px solid #fff;
     transition: all .5s ease;
 }
-
 .button:hover {
     background: rgba(255, 255, 255, 0.25);
 }
-
 .header__content {
     padding-top: 120px;
     padding-bottom: 227px;
-    
 }
-
 .header__title {
     padding-bottom: 15px;
     font-weight: 600;
     font-size: 72px;
 }
-
 .header__sub-title {
     padding-bottom: 85px;
     font-weight: 300;
     font-size: 36px;
 }
-
 .header__button {
     padding: 25px 40px;
     font-size: 24px;

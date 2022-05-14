@@ -16,43 +16,45 @@
 	.header__content {
 		padding-top: 35px;
 	}
-
 	.header__title {
 		font-size: 64px;
 	}
-
 	.header__sub-title {
 		font-size: 24px;
 	}
-
 	.box-forms .section__sub-title {
 		font-size: 30px;
 	}
-
 	.box-forms .forms input {
 		font-size: 20px;
 	}
-
 	.box-forms .user-name {
 		padding-bottom: 60px;
 	}
-
 	.box-forms .user-email {
 		padding-bottom: 60px;
 	}
-
 	.box-forms .user-tel {
 		padding-bottom: 70px;
 	}
-
-	.about:not(:last-child) {
-		margin-bottom: 15px;
+	.about:nth-child(1) {
+		max-width: 555px;
 	}
-
+	.about:nth-child(2) {
+		max-width: 555px;
+	}
+	.about:nth-child(3) {
+		max-width: 555px;
+	}
+	.about:nth-child(4) {
+		max-width: 555px;
+	}
+	.about__img {
+		width: 100%;
+	}
 	.section__gallery {
 		justify-content: center;
 	}
-
 	.card__title {
 		font-size: 24px;
 	}
@@ -68,23 +70,18 @@
 	.menu__link {
 		font-size: 18px;
 	}
-
 	.nav__button {
 		padding: 10px 15px;
 	}
-
 	.forms {
 		width: 100%;	
 	}
-
 	.header__title--center {
 		font-size: 100px;
 	}
-
 	.section__card {
 		justify-content: center;
 	}
-
 	.card__item:nth-child(-n+3) {
 		padding-bottom: 50px;
 	}
@@ -100,68 +97,53 @@
 	.header__content {
 		padding-top: 25px;
 	}
-
 	.header__title {
 		font-size: 48px;
 	}
-
 	.header__sub-title {
 		font-size: 20px;
 	}
-
 	.header__button {
 		padding: 20px 30px;
 		font-size: 18px;
 	}
-
 	.header__sub-title--center {
 		font-size: 48px;
 	}
-
 	.nav__wrapper {
 		flex-direction: column;
 	}
-
 	.nav__logo {
 		margin-bottom: 80px;
 	}
-
 	.menu {
 		top: 50%;
 	}
-
 	.box-reg .forms {
 		padding: 30px 10px;
 	}
-
 	.forms__button {
 		padding: 5px 15px;
 	}
-
 	.forms input {
 		font-size: 16px;
 	}
-
 	.box-forms .section__sub-title {
 		padding-top: 0;
 		padding-bottom: 10px;
 		font-size: 24px;
 	}
-
 	.social__item {
 		font-size: 24px;
 	}
-
 	.section__social {
 		flex-direction: column;
 		justify-content: center;
 	}
-
 	.section__social .social__item:not(:last-child) {
 		margin-right: 0;
 		margin-bottom: 40px;
 	}
-
 	.section__social .social__item:nth-child(2) {
 		position: relative;
 		left: 0;
@@ -180,96 +162,74 @@
 	.header__title {
 		font-size: 36px;
 	}
-
 	.header__sub-title {
 		font-size: 20px;
 	}
-
 	.header__button {
 		padding: 15px;
 	}
-
 	.forms__button {
 		padding: 5px 5px;
 	}
-
 	.section__title {
 		font-size: 30px;
 	}
-
 	.card__description {
 		text-align: center;
 	}
-
 	.cards__title {
 		font-size: 24px;
 	}
-
 	.prices__item {
 		flex-direction: column;
 		text-align: center;
 	}
-
 	.prices__name {
 		padding-bottom: 15px;
 	}
-
 	.name {
 		font-size: 28px;
 	}
-
 	.menu__link {
 		font-size: 14px;
 	}
-
 	.about__name {
 		font-size: 26px;
 	}
-
 	.social__name {
 		font-size: 18px;
 	}
-
 	.footer__social .social__name {
 		margin-right: 0;
 		margin-bottom: 20px;
 	}
-
 	.footer__social, .footer__bottom {
 		display: block;
 		width: fit-content;
     	margin: 0 auto;
 	}
-
 	.social__item:not(:last-child) {
 		margin-right: 0;
 		margin-bottom: 10px;
 	}
-
 	.footer__logo img {
 		margin: 25px auto 0;
 	}
-
 	.menu__sub .menu__item {
 		margin: 0;
 	}
-
 	.menu__sub .menu__link {
 		font-size: 14px;
 	}
-
 	.button__comment:not(:last-child) {
 		margin-bottom: 15px;
 	}
-
 	.forms {	
 		padding: 20px 10px;
 	}
-
 	.box-forms {
 		padding: 20px 10px;
 	}
-
 	.box-forms .section__sub-title {
 		font-size: 19px;
 	}
