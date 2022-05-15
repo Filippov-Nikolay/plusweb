@@ -25,10 +25,12 @@
     font-size: 18px;
 }
 .footer__img {
+    position: static;
     max-width: 40px;
     max-height: 40px;
     filter: grayscale(100%);
     transition: all .5s ease;
+    z-index: -2;
 }
 .social__item:hover .footer__img {
     filter: grayscale(0);
