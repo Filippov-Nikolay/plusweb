@@ -11,18 +11,18 @@ if($connect == true) {
 // Создание таблиц
 $tables = [
     "CREATE TABLE users(
-        idUser int(10) AUTO_INCREMENT,
+        idUser INT AUTO_INCREMENT,
         PRIMARY KEY (idUser),
-        loginUser varchar(256) NOT NULL,
-        emailUser varchar(256) NOT NULL
+        loginUser TEXT NOT NULL,
+        emailUser TEXT NOT NULL
     )",
 
     "CREATE TABLE usersPhone(
-        usersPhoneId int(10) AUTO_INCREMENT,
+        usersPhoneId INT AUTO_INCREMENT,
         PRIMARY KEY (usersPhoneId),
-        phoneUser int(255) NOT NULL,
+        phoneUser INT NOT NULL,
 
-        idUser int(10),
+        idUser INT,
         FOREIGN KEY (idUser) REFERENCES users (idUser)
     )"
 ];
@@ -58,6 +58,8 @@ $userPhone = urldecode($userPhone);
 $userName = trim($userName);
 $userEmail = trim($userEmail);
 $userPhone = trim($userPhone);
+
+$userPhone = (int)$userPhone;
 
 if(!empty($userName) && !empty($userEmail) && !empty($userPhone)) {
     $plusWebEmail = 'filippovnikolay195@gmail.com';
