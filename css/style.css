@@ -31,17 +31,14 @@ a {
     margin: 0 auto;
     max-width: 1170px;
 }
-
 .header__title--center {
     font-size: 144px;
     text-align: center;
 }
-
 .header__sub-title--center {
     font-size: 72px;
     text-align: center;
 }
-
 .line-black {
     color: #000;
 }
@@ -53,7 +50,6 @@ a {
     height: 1px;
     background-color: #000;
 }
-
 .line-white {
     color: #fff;
 }
@@ -65,23 +61,18 @@ a {
     height: 1px;
     background-color: #fff;
 }
-
 .text-white {
     color: #fff;
 }
-
 .text-black {
     color: #000;
 }
-
 .section__gray {
     background-color: #4B4B4B;
 }
-
 .section__white {
     background-color: #fff;
 }
-
 .anim-block {
     opacity: 0;
     animation: show .3s 1;
