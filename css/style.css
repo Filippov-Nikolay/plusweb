@@ -12,13 +12,13 @@ body {
 }
 
 /* chrome, opera, safari, yandex, microsoft-edge */
-body::-webkit-scrollbar {
+body::-webkit-scrollbar, .box-forms::-webkit-scrollbar {
     width: 10px;
 }
-body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track, .box-forms::-webkit-scrollbar-track {
     background-color: #fff;
 }
-body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb, .box-forms::-webkit-scrollbar-thumb {
     background-color: #b8b8b8;
     border: 3px solid #fff;
 }
