@@ -17,7 +17,7 @@
 
     <title>Разработка сайта</title>
 </head>
-<body>
+<body id="body" style="overflow: auto;">
     <header class="header anim-block">
         <div class="container">
             <nav class="nav">
@@ -41,7 +41,7 @@
                         </ul>
                         </li>
                         <li class="menu__item"><a href="#portfolio" class="menu__link">Портфолио</a></li>
-                        <li class="menu__item menu__link">Данные
+                        <li class="menu__item menu__link">Сведения
                             <ul class="menu__sub anim-block">
                                 <li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
                                 <li class="menu__item"><a href="reviews.html" class="menu__link">Отзывы</a></li>
@@ -54,14 +54,26 @@
                         <div class="box-forms anim-block">
                             <h3 class="section__sub-title">Заполните форму и мы <br> свяжемся с вами</h3>
                             <form action="index.php" method="POST" class="forms">
-                                <div class="user-name">
+                                <div class="forms__item">
                                     <input placeholder="Ваше имя" type="text" name="user_login" required>
                                 </div>
-                                <div class="user-email">
+                                <div class="forms__item">
                                     <input placeholder="Почта" type="email" name="user_email" required>
                                 </div>
-                                <div class="user-tel">
+                                <div class="forms__item">
                                     <input placeholder="Ваш номер телефона" type="tel" name="user_phone" pattern="\+?[0-9]{8,13}" required> 
+                                </div>
+                                <div class="forms__item">
+                                    <select id="selects1" name="user_select" class="select__about" onclick="selected('selects1');">
+                                        <option value="Разработка сайта" class="select__item">Разработка сайта</option>
+                                        <option value="Разработка Landing Page" class="select__item">Разработка Landing Page</option>
+                                        <option value="Разработка логотипа" class="select__item">Разработка логотипа</option>
+                                        <option value="Разработка фирменного стиля" class="select__item">Разработка фирменного стиля</option>
+                                        <option value="other" class="select__item">Другое</option>
+                                    </select>
+                                </div>
+                                <div id="forms-text1" class="forms__item forms-text" style="display: none;">
+                                    <textarea name="user_text" class="forms__text" placeholder="Введите ваш вопрос..."></textarea>
                                 </div>
                                 <button type="submit" class="button forms__button">Отправить</button>
                             </form>
@@ -204,14 +216,26 @@
                     <h2 class="section__title line-white">Понравилось?</h2>
                     <h3 class="section__sub-title text-white">Заполните форму и мы <br> свяжемся с вами</h3>
                     <form action="index.php" method="POST" class="forms">
-                        <div class="user-name">
+                        <div class="forms__item">
                             <input placeholder="Ваше имя" type="text" name="user_login" required>
                         </div>
-                        <div class="user-email">
+                        <div class="forms__item">
                             <input placeholder="Почта" type="email" name="user_email" required>
                         </div>
-                        <div class="user-tel">
+                        <div class="forms__item">
                             <input placeholder="Ваш номер телефона" type="tel" name="user_phone" pattern="\+?[0-9]{8,13}" required> 
+                        </div>
+                        <div class="forms__item">
+                            <select id="selects2" name="user_select" class="select__about" onclick="selected('selects2');">
+                                <option value="Разработка сайта" class="select__item">Разработка сайта</option>
+                                <option value="Разработка Landing Page" class="select__item">Разработка Landing Page</option>
+                                <option value="Разработка логотипа" class="select__item">Разработка логотипа</option>
+                                <option value="Разработка фирменного стиля" class="select__item">Разработка фирменного стиля</option>
+                                <option value="other" class="select__item">Другое</option>
+                            </select>
+                        </div>
+                        <div id="forms-text2" class="forms__item forms-text" style="display: none;">
+                            <textarea name="user_text" class="forms__text" placeholder="Введите ваш вопрос..."></textarea>
                         </div>
                         <button type="submit" class="button forms__button">Отправить</button>
                     </form>

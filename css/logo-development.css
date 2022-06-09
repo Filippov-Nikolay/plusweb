@@ -1,21 +1,17 @@
 .header {
     background: url('../img/logo-development/bg.png') no-repeat center top / cover;
 }
-
 .header__wrapper {
     text-align: center;
 }
-
 .about {
     position: relative;
     background-color: #fff;
 }
-
 .about:hover .about__img {
     opacity: 0;
     filter: blur(1px);
 }
-
 .about:hover .about__name {
     opacity: 1;
 }
@@ -27,37 +23,30 @@
 .forms {
     border: 1px solid #fff;
 }
-
 .forms input {
     color: #fff;
     background-color: transparent;
     border-bottom: 1px solid #fff;
 }
-
 .forms__button {
     color: #fff;
     border: 1px solid #fff;
 }
-
 .forms__button:hover {
     color: #000;
     background-color: #fff;
 }
-
 .box-reg .forms {
     border: 1px solid #000;
 }
-
 .box-reg .forms input {
     color: #000;
     border-bottom: 1px solid #000;
 }
-
 .box-reg .forms__button {
     color: #000;
     border: 1px solid #000;
 }
-
 .box-reg .forms__button:hover {
     color: #fff;
     background-color: #000;

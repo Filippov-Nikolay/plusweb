@@ -28,14 +28,8 @@
 	.box-forms .forms input {
 		font-size: 20px;
 	}
-	.box-forms .user-name {
+	.box-forms .forms__item {
 		padding-bottom: 60px;
-	}
-	.box-forms .user-email {
-		padding-bottom: 60px;
-	}
-	.box-forms .user-tel {
-		padding-bottom: 70px;
 	}
 	.about:nth-child(1) {
 		max-width: 555px;

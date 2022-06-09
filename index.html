@@ -16,7 +16,7 @@
 
     <title>PlusWeb</title>
 </head>
-<body>
+<body id="body" style="overflow: auto;">
     <header class="header anim-block">
         <div class="container">
             <nav class="nav">
@@ -66,14 +66,26 @@
                     <div class="box-forms anim-block">
                         <h3 class="section__sub-title">Заполните форму и мы <br> свяжемся с вами</h3>
                         <form action="index.php" method="POST" class="forms">
-                            <div class="user-name">
+                            <div class="forms__item">
                                 <input placeholder="Ваше имя" type="text" name="user_login" required>
                             </div>
-                            <div class="user-email">
+                            <div class="forms__item">
                                 <input placeholder="Почта" type="email" name="user_email" required>
                             </div>
-                            <div class="user-tel">
+                            <div class="forms__item">
                                 <input placeholder="Ваш номер телефона" type="tel" name="user_phone" pattern="\+?[0-9]{8,13}" required> 
+                            </div>
+                            <div class="forms__item">
+                                <select id="selects1" name="user_select" class="select__about" onclick="selected('selects1');">
+                                    <option value="Разработка сайта" class="select__item">Разработка сайта</option>
+                                    <option value="Разработка Landing Page" class="select__item">Разработка Landing Page</option>
+                                    <option value="Разработка логотипа" class="select__item">Разработка логотипа</option>
+                                    <option value="Разработка фирменного стиля" class="select__item">Разработка фирменного стиля</option>
+                                    <option value="other" class="select__item">Другое</option>
+                                </select>
+                            </div>
+                            <div id="forms-text1" class="forms__item forms-text" style="display: none;">
+                                <textarea name="user_text" class="forms__text" placeholder="Введите ваш вопрос..."></textarea>
                             </div>
                             <button type="submit" class="button forms__button">Отправить</button>
                         </form>
@@ -169,20 +181,32 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section section__white">
             <div class="container">
                 <div class="section__content">
                     <h2 class="section__title line-black">Понравилось?</h2>
                     <h3 class="section__sub-title">Заполните форму и мы <br> свяжемся с вами</h3>
                     <form action="index.php" method="POST" class="forms">
-                        <div class="user-name">
+                        <div class="forms__item">
                             <input placeholder="Ваше имя" type="text" name="user_login" required>
                         </div>
-                        <div class="user-email">
+                        <div class="forms__item">
                             <input placeholder="Почта" type="email" name="user_email" required>
                         </div>
-                        <div class="user-tel">
+                        <div class="forms__item">
                             <input placeholder="Ваш номер телефона" type="tel" name="user_phone" pattern="\+?[0-9]{8,13}" required> 
+                        </div>
+                        <div class="forms__item">
+                            <select id="selects2" name="user_select" class="select__about" onclick="selected('selects2');">
+                                <option value="Разработка сайта" class="select__item">Разработка сайта</option>
+                                <option value="Разработка Landing Page" class="select__item">Разработка Landing Page</option>
+                                <option value="Разработка логотипа" class="select__item">Разработка логотипа</option>
+                                <option value="Разработка фирменного стиля" class="select__item">Разработка фирменного стиля</option>
+                                <option value="other" class="select__item">Другое</option>
+                            </select>
+                        </div>
+                        <div id="forms-text2" class="forms__item forms-text" style="display: none;">
+                            <textarea name="user_text" class="forms__text" placeholder="Введите ваш вопрос..."></textarea>
                         </div>
                         <button type="submit" class="button forms__button">Отправить</button>
                     </form>
@@ -225,21 +249,15 @@
                 <div class="footer__social">
                     <a href="https://invite.viber.com/?g2=AQADLXz%2FTm3FKU7WfeiOU24RjOvEYCgFJp8q9%2B0qb5Mm6IlE4GVhdoLE7%2FNBo0Gx" target="_blank" class="social__item">
                         <img src="img/viber-logo.png" alt="viber-logo" class="footer__img">
-                        <span class="social__name">
-                            Viber
-                        </span>
+                        <span class="social__name">Viber</span>
                     </a> 
                     <a href="https://www.instagram.com/plusweb.github/" target="_blank" class="social__item">
                         <img src="img/instagram-logo.png" alt="instagram-logo" class="footer__img">
-                        <span class="social__name">
-                            Instagram
-                        </span>
+                        <span class="social__name">Instagram</span>
                     </a>
                     <a href="https://t.me/pluswebgithub" target="_blank" class="social__item">
                         <img src="img/telegram-logo.png" alt="telegram-logo" class="footer__img">
-                        <span class="social__name">
-                            Telegram
-                        </span>
+                        <span class="social__name">Telegram</span>
                     </a>
                 </div>
                 <div class="footer__bottom">

@@ -102,7 +102,6 @@
     font-size: 48px;
     transform: translate(-50%, -50%);
 }
-
 .about__link:hover .about__name {
     opacity: 1;
 }
@@ -124,37 +123,51 @@
     text-align: center;
     border: 1px solid #000;
 }
+.forms .section__sub-title {
+    font-size: 30px;
+}
 .forms input {
     width: 100%;
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     border-bottom: 1px solid #000;
 }
-.user-name {
-    padding-bottom: 105px;
+.forms__item {
+    padding-bottom: 80px;
 }
-
-.user-email {
-    padding-bottom: 105px;
-}
-
-.user-tel {
-    padding-bottom: 105px;
-}
-.user-tel__msg {
+.select__about {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    text-align: center;
     color: #000;
+    background-color: inherit;
+    border-bottom: 1px solid #000;
+    outline: none;
 }
-
+.select__item {
+    font-size: 16px;
+    color: #757575;
+    border-radius: 0px;
+}
+.forms__text {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 250px;
+    max-height: 350px;
+    font-size: 16px;
+    color: #000;
+    background-color: inherit;
+    outline: none;
+}
 .forms__button {
     padding: 12px 40px;
     border: 1px solid #000;
 }
-
 .forms__button:hover {
     color: #fff;
     background-color: #000;
 }
-
 .section__card {
     display: flex;
     flex-wrap: wrap;
@@ -191,7 +204,6 @@
     max-width: 449px;
     font-size: 20px;
 }
-
 .section__cards {
     padding-top: 60px;
 }
@@ -227,7 +239,6 @@
     transition: all .5s ease;
     cursor: default;
 }
-
 .section__prices {
     padding-top: 60px;
     font-weight: 700;
@@ -250,7 +261,6 @@
 .prices__item:not(:last-child) {
     margin-bottom: 15px;
 }
-
 .section__social {
     display: flex;
     justify-content: space-between;
