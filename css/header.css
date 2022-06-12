@@ -60,7 +60,8 @@
     display: none;
     padding: 5px;
     width: fit-content;
-    background-color: #fffffff2;
+    background-color: #ffffffe6;
+    box-shadow: 10px 10px 15px -5px #000000;
 }
 
 .menu__sub .menu__item {
@@ -86,6 +87,10 @@
 }
 .menu .menu__item:hover .menu__sub {
     display: block;
+}
+.menu__sub span {
+    display: block;
+    padding-bottom: 3px;
 }
 .box-reg {
     position: fixed;
