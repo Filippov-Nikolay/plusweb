@@ -258,6 +258,9 @@
     transform: translate(-10px);
     background: rgba(255, 255, 255, 0.15);
 }
+.section__white .prices__item:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
 .prices__item:not(:last-child) {
     margin-bottom: 15px;
 }
